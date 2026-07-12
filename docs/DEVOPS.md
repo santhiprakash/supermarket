@@ -1,10 +1,10 @@
 # DevOps — FreshLane Supermarket
 
 ## Hosting
-| Service | Purpose |
-|---------|---------|
-| Vercel | Frontend (Next.js) |
-| GitHub | Source control (`santhiprakash/supermarket` or as created) |
+| Service | Purpose | URL |
+|---------|---------|-----|
+| Vercel | Frontend (Next.js) | https://supermarket-neon.vercel.app |
+| GitHub | Source control | https://github.com/santhiprakash/supermarket |
 
 ## Deploy
 ```bash

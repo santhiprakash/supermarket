@@ -11,6 +11,10 @@
 - Git repository initialized, pushed to GitHub
 - Deployed to Vercel
 
+### Live URLs
+- **Production**: https://supermarket-neon.vercel.app
+- **GitHub**: https://github.com/santhiprakash/supermarket
+
 ### In progress
 - None (MVP slice complete)
 

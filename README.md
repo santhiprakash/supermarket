@@ -32,4 +32,4 @@ Next.js 16 · TypeScript · Tailwind CSS · Mock data (Phase 2: Postgres + API)
 
 ## Deploy
 
-Hosted on Vercel — see [docs/DEVOPS.md](docs/DEVOPS.md).
+Hosted on [Vercel](https://supermarket-neon.vercel.app) — see [docs/DEVOPS.md](docs/DEVOPS.md).
