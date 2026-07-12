@@ -7,3 +7,11 @@
 **Actions:** Reorganized specs to `docs/`; created planning/progress/devops docs; scaffolded Next.js; built MVP UI; git + GitHub + Vercel deploy.
 
 **Outcome:** Worked — docs reorganized, FreshLane MVP UI built, GitHub + Vercel deployed.
+
+## 2026-07-12 ~12:26 IST — Cursor (Auto)
+
+**Prompt:** Add Terms and Privacy pages if needed; create and deploy.
+
+**Actions:** Added `/privacy`, `/terms`, footer Legal section, checkout consent line; committed and deployed.
+
+**Outcome:** Worked first try.

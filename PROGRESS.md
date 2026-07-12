@@ -10,6 +10,7 @@
 - Cart context with localStorage persistence
 - Git repository initialized, pushed to GitHub
 - Deployed to Vercel
+- Added Privacy Policy and Terms of Service pages with footer links
 
 ### Live URLs
 - **Production**: https://supermarket-neon.vercel.app

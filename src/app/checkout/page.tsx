@@ -199,6 +199,17 @@ export default function CheckoutPage() {
             Place Order
           </Button>
           <p className="mt-3 text-center text-xs text-forest/50">
+            By placing this order, you agree to our{" "}
+            <Link href="/terms" className="text-terracotta hover:underline">
+              Terms of Service
+            </Link>{" "}
+            and{" "}
+            <Link href="/privacy" className="text-terracotta hover:underline">
+              Privacy Policy
+            </Link>
+            .
+          </p>
+          <p className="mt-1 text-center text-xs text-forest/50">
             Payment integration coming in Phase 2
           </p>
         </div>

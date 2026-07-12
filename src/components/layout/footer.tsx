@@ -4,7 +4,7 @@ import { MapPin, Phone, Clock } from "lucide-react";
 export function Footer() {
   return (
     <footer className="mt-auto border-t border-sage/40 bg-forest text-cream">
-      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-4">
         <div>
           <h2 className="font-display text-lg font-semibold">FreshLane</h2>
           <p className="mt-2 text-sm text-sage leading-relaxed">
@@ -34,8 +34,31 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/admin" className="hover:text-sage transition-colors">
-                Admin
+              <Link href="/about" className="hover:text-sage transition-colors">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="hover:text-sage transition-colors">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-sage">
+            Legal
+          </h3>
+          <ul className="mt-3 space-y-2 text-sm">
+            <li>
+              <Link href="/privacy" className="hover:text-sage transition-colors">
+                Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link href="/terms" className="hover:text-sage transition-colors">
+                Terms of Service
               </Link>
             </li>
           </ul>
@@ -64,8 +87,18 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-forest-light px-4 py-4 text-center text-xs text-sage sm:px-6">
-        © {new Date().getFullYear()} FreshLane Supermarket. All rights reserved.
+      <div className="border-t border-forest-light px-4 py-4 sm:px-6">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 text-xs text-sage sm:flex-row">
+          <p>© {new Date().getFullYear()} FreshLane Supermarket. All rights reserved.</p>
+          <div className="flex gap-4">
+            <Link href="/privacy" className="hover:text-cream transition-colors">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:text-cream transition-colors">
+              Terms
+            </Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
